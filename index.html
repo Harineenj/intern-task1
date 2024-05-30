@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive webpage</title>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+
+</head>
+<body>
+  <header>
+      <nav class="navbar">
+         <a href="#" class="logo">NatureNest Nurture<span>.</span></a>
+        <ul class="menu-links">
+          <span id="close-btn"class="material-symbols-outlined">close</span>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Poduct Details</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+              </nav>
+    </header>
+    <section class="hero-section">
+      <div class="content">
+        <h1>Plant today for a safer, greener tomorrow.....</h1>
+        <p>
+          At GreenThumb Planting Co., we're dedicated to sharing nature's beauty with you. Our experienced team provides expert advice and guidance, ensuring the highest quality plants and supplies sourced from trusted growers. With a diverse selection and user-friendly shopping experience, we make it easy for both seasoned gardeners and beginners to find what they need. Explore our services, from landscaping to custom orders, and let us help you bring your garden dreams to life. Visit our website today and start your planting journey with GreenThumb Planting Co.
+        </p></br>
+        <button>Order Now</button></br>
+      </div>
+    </section>
+    </div>
+    <section class="product-section ">
+      <div class="product-card">
+        <img src="strawbeery.jpg.png" alt="Product 1">
+        <h2>STRAWBERRY PLANT</h2>
+        <p>Grow your own delicious strawberries with our easy-to-care-for plants. Enjoy the satisfaction of harvesting fresh, flavorful berries right from your garden.</p>
+        <button>Learn More</button>
+      </div>
+      <div class="product-card">
+        <img src="bluebeery.jpg.png" alt="Product 3">
+        <h2>BLUEBERRY PLANT</h2>
+        <p>Cultivate antioxidant-rich blueberries effortlessly with our plants. Enjoy harvesting flavorful berries right in your backyard. Elevate your dishes with these delicious, homegrown treats.</p>
+        <button>Learn More</button>
+      </div>
+      <div class="product-card">
+        <img src="banana.jpg.png" alt="Product 4">
+        <h2>BANANA PLANT</h2>
+        <p>
+          Elevate your garden with our easy-to-grow banana plants. Harvest sweet, nutritious bananas from your backyard. Enjoy a taste of the tropics at home.</p>
+        <button>Learn More</button>
+      </div>
+      <div class="product-card">
+        <img src="mango.jpg.png" alt="Product 5">
+        <h2>MANGO PLANT</h2>
+        <p>Treat yourself to the tropical sweetness of our luscious mangoes. Elevate your snacking and recipes with their exquisite flavor.</p>
+        <button>Learn More</button>
+      </div>
+      <div class="product-card">
+        <img src="brinjal.jpg.png" alt="Product 6">
+        <h2>BRINJAL PLANT</h2>
+        <p>
+          Cultivate flavorful eggplants effortlessly with our plants. Enjoy harvesting fresh brinjal from your garden. Elevate your dishes with homegrown, organic produce.</p>
+        <button>Learn More</button>
+      </div>
+      <div class="product-card">
+        <img src="tomato.jpg.png" alt="Product 7">
+        <h2>TOMATO PLANT</h2>
+        <p>Cultivate flavorful tomatoes with ease using our plants. Harvest fresh tomatoes from your backyard. Elevate your dishes with homegrown goodness.</p>
+        <button>Learn More</button>
+      </div>
+      <div class="product-card">
+        <img src="rose.jpg.png" alt="Product 8">
+        <h2>ROSE PLANT</h2>
+        <p>
+        Transform your garden with the elegance of our rose plants. Enjoy the beauty and fragrance of freshly bloomed roses. Elevate your outdoor space effortlessly.</p>
+        <button>Learn More</button>
+      </div>
+      <div class="product-card">
+        <img src="marigold.jpg.png" alt="Product 9">
+        <h2>MARIGOLD PLANT</h2>
+        <p> 
+          Add a pop of color to your garden with our vibrant marigold plants. Enjoy their cheerful blooms and sunny hues. Elevate your outdoor space effortlessly.</p>
+        <button>Learn More</button>
+      </div>
+      <div class="product-card">
+        <img src="jasmine.jpg.png" alt="Product 10">
+        <h2>JASMINE PLANT</h2>
+        <p>Elevate your garden with the enchanting fragrance of our jasmine plants. Enjoy delicate blooms that adorn your space with beauty.</p>
+        <button>Learn More</button>
+      </div>
+      <div class="product-card">
+        <img src="ajwain.jpg.png" alt="Product 11">
+        <h2>AJWAIN PLANT</h2>
+        <p>Grow aromatic ajwain effortlessly in your garden, enjoying its distinct flavor and medicinal properties. Elevate your culinary adventures with homegrown freshness.</p>
+        <button>Learn More</button>
+      </div>
+      <div class="product-card">
+        <img src="lavender.jpg.png" alt="Product 12">
+        <h2>LAVENDER PLANT</h2>
+        <p>
+          Enhance your garden with our fragrant lavender plants, known for their calming aroma and beautiful blooms. Elevate your outdoor space with the soothing presence of lavender.</p>
+        <button>Learn More</button>
+      </div>
+      <!-- Add more product cards as needed -->
+    </section>
+  <script>
+      const header=document.querySelector("header");
+      const menuBtn=document.querySelector("#menu-btn");
+      const closeBtn=document.querySelector("#close-btn");
+
+      menuBtn.addEventListener("click",() =>{
+        header.classList.toggle("show-mobile-menu");
+      });
+      closeBtn.addEventListener("click",() =>{
+        header.classList.toggle("show-mobile-menu");
+      });
+    </script>
+</body>
+</html>
